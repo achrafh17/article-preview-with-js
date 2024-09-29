@@ -1,0 +1,103 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.main {
+  width: 50vw;
+  height: 40vh;
+  background-color: white;
+  margin-top: 30vh;
+  border-radius: 10px;
+  display: flex;
+}
+.main img {
+  width: 40%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.second-item {
+  padding: 20px;
+}
+#first-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  color: hsl(217, 19%, 35%);
+}
+#second-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  color: hsl(214, 17%, 51%);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.information {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+#avatar {
+  border-radius: 100%;
+  width: 40px;
+}
+.name-date {
+  line-height: 0.5;
+}
+#name {
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: hsl(217, 19%, 35%);
+}
+#date {
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+  color: hsl(214, 17%, 51%);
+}
+#share-logo {
+  width: 23px;
+  height: 20px;
+  
+}
+.information button {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: hsl(210, 46%, 95%);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+}
+.share-container {
+    width: 230px;
+    height: 60px;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  
+    margin-left: 43%;
+    margin-top: 10%;
+    display:   none;
+}
+.share-container p {
+    color:hsl(214, 17%, 51%) ;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+
+.share-container img {
+width: 20px;
+height: 20px;
+border-radius: 0;
+margin-left: 20px;
+}
